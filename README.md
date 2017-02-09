@@ -75,6 +75,5 @@ STEP 3. Simulating saving results to the DB
 
 ## 4. To Do
 
-* Implement Generic methods in collections
 * Create unit tests
 * More concrete examples
