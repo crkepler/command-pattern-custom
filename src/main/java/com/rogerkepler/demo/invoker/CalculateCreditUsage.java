@@ -17,7 +17,7 @@ public class CalculateCreditUsage extends AbstractInvoker implements Evaluator {
 	@Override
 	protected Iterator<Evaluator> getEvaluatorsToCall() {
 
-		evaluatorList.add((Evaluator)(new CreditUsage()));
+		evaluatorList.add(new CreditUsage());
 		
 		return evaluatorList.iterator();
 	}

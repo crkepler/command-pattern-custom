@@ -24,7 +24,7 @@ public class RunGlobalGCMUpdateCalculations extends AbstractInvoker {
 		 * Here we add all evaluator classes we need to call.
 		 * Then the evaluators will add the commands to execute
 		 */
-		evaluatorList.add((Evaluator)(new CalculateCreditUsage()));
+		evaluatorList.add(new CalculateCreditUsage());
 		
 		return evaluatorList.iterator();
 	}

@@ -15,7 +15,7 @@ public class CreditUsage extends AbstractEvaluator {
 	protected Iterator<Command> getCommandsToExecute() {
 		List<Command> commandsToExecute = new ArrayList<Command>();
 		
-		commandsToExecute.add((Command) new NormalizedCreditLimit());	// GCM-xxx		
+		commandsToExecute.add(new NormalizedCreditLimit());	// GCM-xxx		
 		
 		return commandsToExecute.iterator();
 	}
