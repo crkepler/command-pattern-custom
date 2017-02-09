@@ -1,7 +1,7 @@
 package com.rogerkepler.demo;
 
 import com.rogerkepler.demo.context.CalculationContext;
-import com.rogerkepler.demo.invoker.RunGlobalGCMUpdateCalculations;
+import com.rogerkepler.demo.invoker.RunGlobalCalculations;
 
 /**
  * Hello world!
@@ -25,7 +25,7 @@ public class App
         
         System.out.println("STEP 2. Calling calculation engine with context");
         
-        RunGlobalGCMUpdateCalculations calcEngine = new RunGlobalGCMUpdateCalculations(myContext);
+        RunGlobalCalculations calcEngine = new RunGlobalCalculations(myContext);
         calcEngine.execute();
         
         System.out.println("STEP 3. Simulating saving results to the DB");

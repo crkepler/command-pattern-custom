@@ -9,11 +9,11 @@ import com.rogerkepler.demo.common.Evaluator;
 import com.rogerkepler.demo.context.CalculationContext;
 
 
-public class RunGlobalGCMUpdateCalculations extends AbstractInvoker {
+public class RunGlobalCalculations extends AbstractInvoker {
 
 	private List<Evaluator> evaluatorList = new ArrayList<Evaluator>();
 	
-	public RunGlobalGCMUpdateCalculations(CalculationContext myContext) {
+	public RunGlobalCalculations(CalculationContext myContext) {
 		getExecutionContext().addContextItem("calculationContext", myContext);	//this is actually calling another Invoker, not an Evaluator
 	}
 	
