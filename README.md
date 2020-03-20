@@ -3,7 +3,7 @@ Command pattern reference implementation. Custom implementation for a rules engi
 
 ## 1. Setup and Installation
 
-* Java 7 - it'll very likely work with earlier versions, it's just that we haven't tested it.
+* Java 8 - it'll very likely work with earlier versions, it's just that we haven't tested it.
 * Maven 3 or later
 
 
