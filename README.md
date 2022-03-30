@@ -34,7 +34,7 @@ This implementation is customized to execute commands in a "rules" like implemen
 * Rules engine
 * Chained calculations (e.g. insurance quotes, inventory re-ordering, credit limits, etc.)
 * Plug-in like implementations (e.g. each command can call a separate plug-in).
-* Many more, these are just examples 
+* Many more, these are just examples
 
 ## 3. Sample Output
 
@@ -76,4 +76,4 @@ STEP 3. Simulating saving results to the DB
 ## 4. To Do
 
 * Create unit tests
-* More concrete examples
+* More concrete examples.
