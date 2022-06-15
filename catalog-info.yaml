@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: crkepler/command-pattern-custom
+  title: Command Pattern Example in Java
+  description: Sample Java code to implement the command pattern
+  annotations:
+    github.com/project-slug: wexinc/crkepler_command_pattern
+spec:
+  type: service
+  owner: user:crkepler
+  lifecycle: experimental
