@@ -5,7 +5,7 @@ metadata:
   title: Command Pattern Example in Java
   description: Sample Java code to implement the command pattern
   annotations:
-    github.com/project-slug: wexinc/crkepler_command_pattern
+    github.com/project-slug: crkepler/command-pattern-custom
     backstage.io/techdocs-ref: dir:.
 spec:
   type: documentation
